@@ -1,7 +1,11 @@
 def numbers(numero1, numero2, numero3):
-    return numero1, numero2, numero3
+    maior = numero1
 
-print("O maior numero é", max(numbers(132, 2353, 4532)))
+    if numero2 > maior:
+        maior = numero2
+    elif numero3 > maior:
+        maior = numero3
 
+    return maior
 
-
+print(numbers(98, 1, 2))
