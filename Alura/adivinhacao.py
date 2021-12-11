@@ -61,3 +61,6 @@ def Jogo1():
 
     # mensagem final
     print("Fim do jogo")
+
+if(__name__ == "__main__"):
+    Jogo1()
