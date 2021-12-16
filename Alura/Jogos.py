@@ -1,4 +1,4 @@
-import Forca
+import forca
 import adivinhacao
 
 print("======================================")
@@ -11,7 +11,7 @@ jogo = int(input("Faça sua escolha: "))
 
 if(jogo == 1):
     print("Jogo Escolhiido: Forca")
-    Forca.Jogo2()
+    forca.Jogo2()
 elif(jogo == 2):
     print("Jogo Escolhido: Adivinhação")
     adivinhacao.Jogo1()
